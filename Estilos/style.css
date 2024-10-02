@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #d6bf93;
+    padding: 25px;
+}
+
+.nav-sad{
+    float: inline-end;
+    padding-bottom: 400px;
+    margin-bottom: 20px;
+}
+
+.btn-nav{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px;
+    padding: 10px;
+    color: #532728;
+}
+
+.btn-nav:hover{
+    background-color: white;
+    border-radius: 10px 10px;
+}
+
+.logo{
+    font-size: 55px;
+    color: #532728;
+}
+
+.slogan{
+    margin-top: -9px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin-left: 60px;
+    color: #532728;
+}
+
+
+/*Cartas de productos*/
+
+section{
+    margin: 30px;
+    
+}
+

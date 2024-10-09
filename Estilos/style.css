@@ -5,20 +5,20 @@
 
 header{
     background-color: #d6bf93;
-    padding: 25px;
+    padding: 10px;
 }
 
 .nav-sad{
     float: inline-end;
-    padding-bottom: 400px;
-    margin-bottom: 20px;
+    margin-top: -55px;
 }
 
 .btn-nav{
     text-decoration: none;
     font-size: 20px;
-    margin: 30px;
-    padding: 10px;
+    margin: 5px;
+    margin-top: -65px;
+    padding: 9px;
     color: #532728;
 }
 
@@ -27,16 +27,23 @@ header{
     border-radius: 10px 10px;
 }
 
+.btn-img{
+    height: 35px;
+    margin: 5px;
+    margin-top: -65px;
+}
+
 .logo{
     font-size: 55px;
     color: #532728;
+    margin-left: 50px;
 }
 
 .slogan{
     margin-top: -9px;
     margin-bottom: 10px;
     font-size: 15px;
-    margin-left: 60px;
+    margin-left: 110px;
     color: #532728;
 }
 
@@ -44,7 +51,84 @@ header{
 /*Cartas de productos*/
 
 section{
-    margin: 30px;
-    
+    display: flex;
 }
 
+.card{
+    margin: 25px 25px;
+}
+
+.titulo-principal{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn-det{
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #f3ddb6;
+    color: #532728;
+}
+
+
+/*Formulario*/
+
+.form-ini {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 470px;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f3efce;
+  }
+  
+  .form-ini .mb-3 {
+    margin-bottom: 1rem;
+  }
+  
+  .form-ini label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-ini input[type="email"],
+  .form-ini input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-ini button {
+    display: inline-block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #975300;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-ini button:hover {
+    background-color: #d6bf93;
+  }
+  
+  .atras{
+    height: 35px;
+    margin: 30px;
+  }
+
+  .titulo-log{
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
